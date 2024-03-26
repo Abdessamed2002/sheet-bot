@@ -3,7 +3,7 @@ import cron from 'node-cron'; // for handle cron expressions every minute
 import cronParser from 'cron-parser'; // parse the cron expressions to compare them with the current date
 import { google } from 'googleapis';
 
-const botToken = "6849664260:AAHAZOLoZpJVAcjPqwH31sXeQVG8k_ZEIGw"; // Replace with your bot token @test_samad_2002_bot
+const botToken = botToken // Replace with your bot token
 const bot = new TelegramBot(botToken, { polling: true });
 const trackedUsers = [];  // Array to store users ID
 const usersPhotosDict = {}; // dictionnaire id : userid    value : list of phototoUrls
@@ -65,12 +65,12 @@ bot.onText(/\/start/, async (msg) => {
   }
 });
 
-const clientEmail = 'abdessamed@test-sheet-417911.iam.gserviceaccount.com';
-const privateKey = '-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCsYrw/yFOt+FA6\nRKETArDkHC6G4lTp8BUU8nGQCCfHkVoGq7CddLgah98gLMk7mq9OvFPEbXIqQoqb\nhhYCsjuD2mmf5m2u1TzWyCI5WarJUudQrvRDsNekms75ldPue2TrQyHWiJQQFbro\n5pWuB/hDTtjca/BrzvZT/+/OlLqHnz1nksy7Ys1b90LLGGFDqSW5tnJuqgQIFPmW\n73r4VwkuQQmkAAb4KShl9lG4q8s/EkYhcMDCHjofRtrhuehGvwdL693u2EEDGOq2\nd2DVnIlla7rK+bG7WQKEl5gaZkeCW1xsJM2VrYB/uGzXz6lwpS0ETEkJBCSjoRYB\ndlfNhf2bAgMBAAECggEAMzIplUnB7FdkQEHUkohIj559BOsf69A0+qEcL/n0EnVt\nBrEjxUd+S8bRccVLSEvix5/vwtT8RGe5sYGrdMaJHVoW53mwVm2W4XTTkTO7oIni\nD9i9y4KwMH8XfBFOvTNhX+tyl7u9OV+ywGuGxYYxaY/3oNLftqzjBERs7G3ITfFz\nbvpfZsot7cJAlkA+XTyi1KIDA7hJ4Q3OoMqVAsUnaXplPgUfXngammOe17W0p3fu\niDzId9UUp+A6MasqGvbAONQLSM+1WflwDzqOx4TiVjTJBygXC3zVt55bOnb0gWbs\n/aRP0PMp9l+o7jB/ysz1zKtIKu9RbiW0eIiwfKKuTQKBgQDx1jM7d9jY7t/l7WvN\n+A2cvlX1QFDPEHtV+FHUlg1NtaP5DjxDqfLj92vh99fnBj8rmGWZkXN6xtQdEJxi\nvgUCFb2mDDka6YbKHScxqqUbInLhJbxnxh3PbHXk+rewXlRzKyv3sIHRiSPk5ACB\nfpVJSa4Gx5+WRP5ypNV6OrSt3QKBgQC2e0XFDrj/479BByWvYHsolNOPpQJe4ybR\ntK75jRrYv2KExzbq13mnpMYEClhDaBufKor+7zK6YzBkIQ2wR3HKB4swA+Kgk5sB\nSv/wUpgFouMvNJIdijH1ABm3y50BZc/PDW9ts5/MOJ5xvT7iCMsctI9ssK+EDu1q\nvgrsTObN1wKBgHrJkgugpyZF6sJ4UKMsTeUGsugp9p2btbOJuCqi4TBSiGW895Y3\nZM6gYlNCHon7HvnIj9VwB10QNMRpGa384tgTJ852KExkw349XRgXl2r2i7OLEGT0\nL1CQti9DqR5QVrp+8fz5zoAQDHx701HsbmnekhB5LKsEbtjQnl9IDVK1AoGAL6FJ\ner/3BcOaXgzRh081lkgSWIIHdmDv9vikWzq7cSuzOVkOOon3lQxrKw7QLvfzjb36\n/cPNh9zv+pKuEf7z8nm5mNTKyIL+iH3dBAtq5r23ctDT+qXhmENocxLQblb2wOKO\n3SFvaky0/pcY3MLS0TFH5mTPyzZiPeRQ0ZDZBY0CgYB3eC48l5et8XpB/8WhDHq4\nNYnbhj1O9kF3gEgXqrwCbrJxbadK8OkjcuR4X3044tWIkH7XOzLoXWhbVaSllICT\n5Jr5BQJnqXuGv+OcKDxR7dMf0mPwW4MXdvGonds5GdpaoZOubv2K7WNyBYG/NoPa\nRiVrA1dwq4D4yDnjPBNWvg==\n-----END PRIVATE KEY-----\n';
-const googleSheetId = '1JPhRpRcvJitSedGsBsaAYq0WL21MHLkTo1WtN1an5sw';
-const googleSheetPage = 'task';
-const userSheetID = '120FOobGTJ5gIaghc6nEdY3wZh9lNqQ3O46vOIhVNfro';
-const userSheetName = 'user';
+const clientEmail = yourEmailUsername
+const privateKey = KeyGoogleApp
+const googleSheetId = TaskSheetId
+const googleSheetPage = NameSheet
+const userSheetID = UserSheetId
+const userSheetName = NameSheet
 
 async function authenticate() {
   const client = new google.auth.JWT(
