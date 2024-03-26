@@ -36,7 +36,8 @@ Start user Conversation : ![git6](https://github.com/Abdessamed2002/sheet-bot/as
 
 Users Sheet updated : ![gittt](https://github.com/Abdessamed2002/sheet-bot/assets/157251900/c87a0b05-bfb3-4e35-bf46-957d72ac4368)
 
-Tasks Sheet : ![git2](https://github.com/Abdessamed2002/sheet-bot/assets/157251900/093d3465-c34d-4b68-940e-7836a81e8e94)
+Tasks Sheet : 
+![git2](https://github.com/Abdessamed2002/sheet-bot/assets/157251900/093d3465-c34d-4b68-940e-7836a81e8e94)
 
 For the image type you should upload it on google photo like this : ![git3](https://github.com/Abdessamed2002/sheet-bot/assets/157251900/088e621e-7554-4c96-9ea0-c550e2f9b5fd)
 Then click on the Image and make a right click on it Then choose copy image adress : ![git4](https://github.com/Abdessamed2002/sheet-bot/assets/157251900/2760a70b-af9d-4f78-83d1-a1b326de61c9)
