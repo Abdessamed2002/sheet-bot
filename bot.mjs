@@ -187,7 +187,7 @@ function dateToCronExpression(date) {
 }
 
 cron.schedule('* * * * *', async () => {
-  const url = `https://sheets.googleapis.com/v4/spreadsheets/${googleSheetId}/values/A1:E100?key=AIzaSyAKKxJPhThyaV0XGuW9wITrhiGRsud65gU`;
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/${googleSheetId}/values/A1:E100?key=APIKEY`;
   const tasks = []; // Define an array to store tasks
   const repeatedTasks = {} // Dict for repeated tasks
   const response = await fetch(url);
